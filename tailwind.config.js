@@ -25,6 +25,7 @@ module.exports = {
         "my-custom-pink3": "rgb(255,217,217)",
         "my-blue": "rgb(8,102,255)",
         "my-blue1": "rgb(10,102,194)",
+        "my-blue2": "rgb(31,111,139)",
       },
     },
     container: {

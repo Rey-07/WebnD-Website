@@ -12,8 +12,8 @@ const Hero = () => {
             data-aos-once="true"
             className="flex flex-col items-center gap-4 text-center text-white md:items-start md:text-left "
           >
-            <h1 className=" text-4xl text-my-custom-yellow">
-              WebnD : Pioneering Pixel Perfection
+            <h1 className=" text-5xl text-my-custom-yellow">
+              WebnD: Pioneering Pixel Perfection
             </h1>
             <p className="">
               Where Innovation Meets Interface! Dive into the dynamic world of
