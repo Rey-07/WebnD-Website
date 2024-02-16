@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "../../assets/canva5.png";
 import image2 from "../../assets/ui2.png";
-import bg from "../../assets/bgabout.png";
+import bg from "../../assets/bgevents.png";
 import AOS from "aos";
 
 const events = ({ reverse, content, heading, image, l1, l2, l3 }) => {

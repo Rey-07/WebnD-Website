@@ -71,7 +71,7 @@ const Footer = () => {
             <div class="flex mt-4 space-x-6 justify-center  sm:mt-0">
               <a
                 href="https://www.facebook.com/webnd.iitbbs/"
-                class=" animate-bounce text-gray-500 hover:text-my-blue dark:hover:text-my-blue"
+                class="animate-bounce text-gray-500 hover:text-my-blue dark:hover:text-my-blue"
               >
                 <svg
                   class="w-8 h-8"
@@ -105,7 +105,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.linkedin.com/company/webd-iitbbs/mycompany/"
-                class=" animate-bounce text-gray-500 hover:text-my-blue1 dark:hover:text-my-blue1"
+                class="animate-bounce text-gray-500 hover:text-my-blue1 dark:hover:text-my-blue1"
               >
                 <svg
                   class="w-8 h-8"
@@ -119,7 +119,7 @@ const Footer = () => {
 
               <a
                 href="https://github.com/webd-iitbbs/"
-                class=" animate-bounce text-gray-500 hover:text-black dark:hover:text-black"
+                class="animate-bounce text-gray-500 hover:text-black dark:hover:text-black"
               >
                 <svg
                   class="w-8 h-"
