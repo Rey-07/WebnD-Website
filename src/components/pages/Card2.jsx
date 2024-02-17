@@ -3,7 +3,7 @@ import React from "react";
 const Card2 = ({ Img, Head, Date, By }) => {
   return (
     <>
-      <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl bg-white rounded-t-lg rounded-b-lg transition duration-700 hover:skew-x-1 hover:scale-110 dark:bg-my-custom-grey1 dark:text-white">
+      <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl bg-slate-200 rounded-t-lg rounded-b-lg transition duration-700 hover:skew-x-1 hover:scale-110 dark:bg-my-custom-grey1 dark:text-white">
         <div className="overflow-hidden">
           <img
             src={Img}

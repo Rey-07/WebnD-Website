@@ -11,11 +11,11 @@ const events = () => {
     <section className="relative bg-slate-100 dark:bg-my-custom-grey2">
       {/* Background image */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-center bg-cover bg-no-repeat opacity-40"
+        className="absolute bottom-8 left-0  w-full h-full bg-center bg-cover bg-no-repeat opacity-40"
         style={{ backgroundImage: `url(${bg})` }}
       ></div>
 
-      <main className="bg-slate-100 dark:bg-my-custom-grey2 dark:text-white z-10">
+      <main className="bg-slate-100 dark:bg-my-custom-grey2 text-my-blue2 dark:text-white z-10">
         <h1 className="mb-5 mt-4 md:pt-10 pl-2 text-center text-4xl font-bold dark:text-my-custom-yellow ">
           Our Events
         </h1>
@@ -23,7 +23,7 @@ const events = () => {
         <div className="relative">
           <section className="text-black">
             <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+              <div className="lg:max-w-lg lg:w-full ml-2 md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <Card2
                   Img={image1}
                   Head="CODE RELAY"
@@ -50,7 +50,7 @@ const events = () => {
         <div className="relative">
           <section className="text-black">
             <div className="container mx-auto flex px-5 py-12 md:flex-row-reverse flex-col items-center">
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+              <div className="lg:max-w-lg lg:w-full mr-2 md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <Card2
                   Img={image2}
                   Head="PRODIFY"
@@ -77,7 +77,7 @@ const events = () => {
         <div className="relative">
           <section className="text-black">
             <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+              <div className="lg:max-w-lg lg:w-full ml-2 md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <Card2
                   Img={image3}
                   Head="DESIGN WORKSHOP"
@@ -104,7 +104,7 @@ const events = () => {
         <div className="relative">
           <section className="text-black">
             <div className="container mx-auto flex px-5 py-12 md:flex-row-reverse flex-col items-center">
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+              <div className="lg:max-w-lg lg:w-full mr-2 md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <Card2
                   Img={image4}
                   Head="BLOCKCHAIN WORKSHOP"
