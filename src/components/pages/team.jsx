@@ -16,7 +16,7 @@ const team = () => {
       ></div>
 
       <main className="bg-slate-100 dark:bg-my-custom-grey2 dark:text-white z-10">
-        <h1 className="mb-5 mt-4 md:pt-10 pl-2 text-center text-4xl font-bold dark:text-white ">
+        <h1 className="mb-5 mt-5 md:pt-10 pl-2 text-center text-4xl font-bold dark:text-white ">
           Our Team
         </h1>
         <div className="flex flex-col items-center justify-center">

@@ -6,8 +6,8 @@ function ContactForm() {
 
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="container px-5 py-5 mx-auto flex justify-center">
-        <div className="lg:w-2/3 md:w-2/3 pr-4">
+      <div className="container px-5 py-5 mx-auto flex flex-wrap justify-center ">
+        <div className="lg:w-2/3 md:w-2/3 md:pr-4 mb-10 lg:mb-0 w-full md:w-auto">
           <div className="w-full bg-gray-300 rounded-2xl h-full">
             <iframe
               className="rounded-2xl w-full h-full"
@@ -18,7 +18,7 @@ function ContactForm() {
           </div>
         </div>
         {state.succeeded ? (
-          <div className="lg:w-1/3 md:w-1/2  p-6 flex flex-col md:ml-auto w-full mt-20 md:mt-0 relative z-10 ">
+          <div className="lg:w-1/3 md:w-1/2  p-6 flex flex-col md:ml-auto mt-20 md:mt-0 relative z-10  w-full md:w-auto">
             <h2 className="text-gray-300 text-center text-2xl mb-1 font-bold title-font">
               Contact Us
             </h2>

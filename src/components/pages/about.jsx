@@ -18,7 +18,7 @@ const about = ({}) => {
       <main className="bg-slate-100 dark:bg-my-custom-grey2 dark:text-white z-10">
         <h1
           data-aos="fade-up"
-          className="mb-5 mt-4  md:pt-10 pl-2 text-center text-4xl font-bold dark:text-white "
+          className="mb-5 mt-5  md:pt-10 pl-2 text-center text-4xl font-bold dark:text-white "
         >
           About Us
         </h1>
