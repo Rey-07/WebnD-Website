@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/webd.png";
-import { motion } from "framer-motion";
+import ContactForm from "./ContactForm.jsx";
 
 const Footer = () => {
   return (
@@ -9,9 +9,15 @@ const Footer = () => {
         class="p-4 rounded-t-3xl bg-gradient-to-r from-my-custom-grey1 to to-my-custom-pink sm:p-6 "
         id="contact"
       >
+        <h3 class="text-4xl text-white mt-5 mb-5 text-center">Contact Us</h3>
+
+        <div>
+          <ContactForm />
+        </div>
+
         <div class="mx-auto max-w-screen-xl">
           <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
+            <div class="mb-6 mt-3 md:mb-0 flex justify-center">
               <a href="https://flowbite.com" class="flex items-center">
                 <img src={logo} class="mr-3 h-10" alt="FlowBite Logo" />
                 <span class="self-center text-xl font-semibold whitespace-nowrap text-white">
@@ -19,59 +25,23 @@ const Footer = () => {
                 </span>
               </a>
             </div>
-
-            <div class="grid grid-cols-2 gap-8 sm:gap-8 sm:grid-cols-2">
-              <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"></h2>
-                <ul class="text-white ">
-                  <li class="mb-4">
-                    <a
-                      href="https://github.com/webd-iitbbs/"
-                      class="hover:underline "
-                    >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/webnd.iitbbs/"
-                      class="hover:underline"
-                    >
-                      Instagram
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"></h2>
-                <ul class="text-white">
-                  <li class="mb-4">
-                    <a href="#" class="hover:underline">
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="hover:underline">
-                      Terms &amp; Conditions
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
+
           <hr class="my-6 border-gray-300 sm:mx-auto dark:border-gray-600 lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-white sm:text-center ">
-              © 2024{" "}
-              <a href="https://flowbite.com" class="hover:underline">
-                WebnD™
-              </a>
-              . All Rights Reserved.
-            </span>
+            <div class="text-center">
+              <span class="text-sm text-white sm:text-center ">
+                © 2024{" "}
+                <a href="https://flowbite.com" class="hover:underline">
+                  WebnD™
+                </a>
+                . All Rights Reserved.
+              </span>
+            </div>
             <div class="flex mt-4 space-x-6 justify-center  sm:mt-0">
               <a
                 href="https://www.facebook.com/webnd.iitbbs/"
-                class="animate-bounce text-gray-500 hover:text-my-blue dark:hover:text-my-blue"
+                class=" text-gray-500 hover:text-my-blue dark:hover:text-my-blue"
               >
                 <svg
                   class="w-8 h-8"
@@ -88,7 +58,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.instagram.com/webnd.iitbbs/"
-                class="animate-bounce text-gray-500 hover:text-pink-600 dark:hover:text-pink-600"
+                class=" text-gray-500 hover:text-pink-600 dark:hover:text-pink-600"
               >
                 <svg
                   class="w-8 h-8"
@@ -105,7 +75,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.linkedin.com/company/webd-iitbbs/mycompany/"
-                class="animate-bounce text-gray-500 hover:text-my-blue1 dark:hover:text-my-blue1"
+                class=" text-gray-500 hover:text-my-blue1 dark:hover:text-my-blue1"
               >
                 <svg
                   class="w-8 h-8"
@@ -119,7 +89,7 @@ const Footer = () => {
 
               <a
                 href="https://github.com/webd-iitbbs/"
-                class="animate-bounce text-gray-500 hover:text-black dark:hover:text-black"
+                class="text-gray-500 hover:text-black dark:hover:text-black"
               >
                 <svg
                   class="w-8 h-"

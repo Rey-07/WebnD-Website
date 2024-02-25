@@ -35,7 +35,7 @@ const about = ({}) => {
                   <img
                     src={teampic}
                     alt="Team Image"
-                    className="h-auto w-64  md:w-96 object-cover rounded-lg hover:drop-shadow-md mt-4"
+                    className="h-auto w-64 md:w-96 object-cover rounded-lg hover:drop-shadow-md mt-4"
                   />
                 </div>
               </div>

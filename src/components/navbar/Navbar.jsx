@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`relative z-[99] border-primary/50  bg-my-custom-grey1 text-white shadow-lg ${
+        className={` flex-no-wrap fixed top-0 relative z-[99] border-primary/50  bg-my-custom-grey1 text-white shadow-lg ${
           isSticky ? "sticky top-0 w-full" : ""
         }`}
       >
@@ -69,13 +69,19 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-my-custom-yellow after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <Link to="/about">About</Link>
+                <Link to="/about" onClick={handleScrollToTop}>
+                  About
+                </Link>
               </li>
               <li className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-my-custom-yellow after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <Link to="/events">Events</Link>
+                <Link to="/events" onClick={handleScrollToTop}>
+                  Events
+                </Link>
               </li>
               <li className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-my-custom-yellow after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-                <Link to="/team">Team</Link>
+                <Link to="/team" onClick={handleScrollToTop}>
+                  Team
+                </Link>
               </li>
               <li className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-my-custom-yellow after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 <a href="#contact">Contact</a>
